@@ -1,0 +1,524 @@
+.btn-aside-menu{
+    background-color: inherit;
+    border: none;
+  
+}
+
+a{
+    cursor: pointer;
+}
+
+.po{
+  color: #fff;
+  font-weight: 900;
+  font-size: 50px;
+    
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  
+}
+
+body {
+  background: #eee;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  color: transparent;
+  line-height: 20px;
+
+}
+
+.col{
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav{
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#navb{
+  color: #fff;
+  background-color: black;
+  padding: 10px 30px;
+  position: relative;
+  border-radius: 0px;
+  border-color: transparent;
+}
+
+#navb:hover{
+  background-color: #ff631b;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.sp:hover{
+  color: #ff631b;
+  transition: 1s;
+}
+
+.sp{
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.po:hover{
+  color: #ff631b;
+}
+
+.cr{
+  font-weight: 700;
+  font-size: 78px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', cursive;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bo{
+  text-align: left;
+  font-size: 24px;
+}
+
+.btn-success{
+  background: #fff;
+  border-radius: 0;
+  border-color: #fff;
+  justify-content: left;
+  text-align: left;
+  padding: 15px 30px;
+}
+
+.but{
+  color: #000;
+  text-decoration: none;
+  padding: 0px 20px;
+  text-align: left;
+  justify-content: left;
+}
+
+.btn-success:hover{
+  background-color: #ff631b;
+  border-color: #ff631b;
+}
+
+.p{
+  font-size: 18px;
+  color: #868686;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-link{
+  text-decoration: none;
+}
+
+.center{
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image-portfolio{
+  position: absolute;
+  padding-top: 23%;
+  padding-left: 0%;
+  opacity: 0;
+}
+
+.portfolio-icon{
+  display: inline-block;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  margin: 3px;
+}
+
+@keyframes portfolio {
+  0%{
+    padding-top: 23%;
+    padding-left: 7%;
+    opacity: 0;
+  }
+  90%{
+    padding-top: 18.5%;
+    padding-left: 8%;
+    opacity: 0;
+  }
+  100%{
+    padding-top: 18%;
+    padding-left: 8%;
+    opacity: 1;
+  }
+}
+
+.firstanime:hover{
+  .image-portfolio{
+  animation-name: portfolio;
+  animation-duration: 2s;
+  animation-delay: -1.7s;
+  animation-fill-mode: forwards;
+
+  }
+  
+}
+
+.port-end{
+  background-color: #ff631b;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 0;
+    height: 28px;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+.plase{
+  color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 100px;
+}
+
+.plase:hover{
+  color: #ff631b;
+  transition: 1s;
+}
+
+@keyframes grow {
+  from{padding-bottom: 10px;
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;}
+
+  to{padding-bottom: 5px;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  
+}
+
+.portfolio-icon:hover{
+  animation-name: grow;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.card{
+  border: none;
+  padding: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.card:hover{
+  box-shadow:inset 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-section{
+  padding-bottom: 70px;
+}
+
+.card-header{
+  background-color: inherit;
+}
+
+.card-text{
+  font-size: 21px;
+  color: #868686;
+}
+
+.card-title{
+  margin: 0 0 10px;
+  padding: 0 0 18px;
+  color: #181818;
+  font-size: 30px;
+}
+
+.img{
+    margin-bottom: 39px;
+}
+
+.section-3{
+  font-size: 80px;
+  font-family: sans-serif;
+}
+
+.sectext{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.me-2{
+  background-color: transparent;
+  border: 1px solid #979797;
+  color: #181818;
+  display: inline-block;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20%;
+  transform: rotate(47deg);
+  transition: all 0.3s ease-out;
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+
+.team-link{
+  display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    transform: rotate(-45deg);
+    width: 100px;
+}
+
+.me-2:hover{
+  background: #000;
+  color: white;
+}
+
+.picy{
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
+    transition-duration: 1s;
+}
+
+@keyframes saturation {
+  from{filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);}
+  to{filter: brightness(100%) contrast(100%) saturate(100%) blur(0) hue-rotate(0deg);}
+  
+}
+
+@keyframes saturation-back {
+  from{filter: brightness(100%) contrast(100%) saturate(100%) blur(0) hue-rotate(0deg);}
+  to{filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);}
+  
+}
+
+@keyframes identifier {
+  0%{transform: translateY(-8px);
+  } 
+  50%{transform: translateY(-4px);}
+  100%{transform: translateY(-8px);}
+}
+
+.picy:hover{
+  animation-name: saturation, identifier;
+  animation-duration: 1s, 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1, infinite;
+}
+
+.video-container{
+  background-image: url("Images/bg1.jpg");
+  margin-top: 150px;
+}
+
+.video-link{
+  margin-top: 7px;
+}
+
+.bg-pic{
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 1030px;
+}
+
+@keyframes icon{
+  from{ font-size:120px;}
+  to{font-size: 180px;}
+}
+
+.fa-youtube{
+  font-size: 120px;
+  color: #eee;
+}
+
+.fa-youtube:hover{
+  animation-name: icon;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+.fa-quote-left{
+  font-size: 120px;
+  background: #969696;
+  color: #fff;
+}
+
+.if{
+  padding: 180px;
+}
+
+.pg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #868686;
+}
+
+.ol:hover{
+  color: #ff631b;
+  transition: 1s;
+}
+
+.pf:hover{
+  color: #ff631b;
+  transition: 1s;
+}
+
+.final{
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+
+}
+
+.finale{
+  filter: grayscale(100);
+  opacity: 0.5;
+}
+
+.finale:hover{
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+.footer-area{
+  background-color: #000;
+  padding-top: 100px;
+  padding-left: 15px;
+  padding-bottom: 60px;
+  padding-right: 15px;
+}
+
+.jk{
+  display: inline-block;
+}
+
+.start{
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.ofc{
+  align-content: right;
+  align-items: right;
+  justify-content: right;
+  text-align: right;
+}
+
+.text-mut{
+  color: #868686;
+}
+
+.text-mut:hover{
+  color: #fff;
+}
+
+.holy{
+  color: #868686;
+  text-align: right;
+  font-size: small;
+}
+
+.hip{
+  color: #868686;
+}
+
+.plases{
+  color: #868686;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.plases:hover{
+  color: #ff631b;
+  transition: 1s;
+}
+
+.a2{
+  animation-delay: 1s;
+}
+
+.a3{
+  animation-delay: 2s;
+}
+
+.a4{
+  animation-delay: 3s;
+}
+
+.scroll{
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
+  background-color: #C4C4C4;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  text-align: center;
+  font-size: 20px;
+  line-height: 38px;
+  font-weight: 700;
+  cursor: pointer;
+  overflow: hidden;
+  opacity: 0.7;
+}
+
+
+.scroll:hover {
+  background-color: #ff631b;
+  opacity: 1;
+  transition: 0.7s;
+}
+

@@ -1,0 +1,279 @@
+/* Header Area */
+
+.btn-aside-menu{
+    background-color: inherit;
+    border: none;
+  
+}
+
+a{
+    cursor: pointer;
+}
+
+.po{
+  color: black;
+  font-weight: 900;
+  font-size: 50px;
+   background-color: transparent;
+   border-color: transparent; 
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  color: #fff;
+}
+
+body {
+  background: #eee;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  color: white;
+  line-height: 20px;
+
+}
+
+.col{
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav{
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#navb{
+  color: #fff;
+  background-color: black;
+  padding: 10px 30px;
+  position: relative;
+  border-radius: 0px;
+}
+
+#navb:hover{
+  background-color: #ff631b;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.sp:hover{
+  color: #ff631b ;
+  transition: 1s;
+}
+
+.sp{
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.po:hover{
+  color: #ff631b;
+}
+
+.cr{
+  font-weight: 700;
+  font-size: 78px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', cursive;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bo{
+  text-align: left;
+  font-size: 24px;
+}
+
+.btn-success{
+  background: #fff;
+  border-radius: 0;
+  border-color: #fff;
+  justify-content: left;
+  text-align: left;
+  padding: 15px 30px;
+}
+
+.but{
+  color: #000;
+  text-decoration: none;
+  padding: 0px 20px;
+  text-align: left;
+  justify-content: left;
+}
+
+.btn-success:hover{
+  background-color: #ff631b;
+  border-color: #ff631b;
+}
+
+.p{
+  font-size: 18px;
+  color: #868686;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-link{
+  text-decoration: none;
+}
+
+/* End Header Area */
+
+@keyframes ease{
+    0% {
+        transform: none;
+    }
+    
+    100% {
+        transform: rotate(-15deg) translateX(-30px);
+    }
+}
+
+@keyframes ease2{
+    0% {
+        transform: rotate(-40deg);
+    }
+    
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes ease3{
+    0% {
+        transform: none;
+    }
+    
+    100% {
+        transform: rotate(15deg) translateX(20px);
+    }
+}
+
+.t404-1{
+    animation-fill-mode: both;
+    animation-duration: 3s;
+    animation-delay: 0.6s;
+    animation-name: ease;
+}
+
+.t404-2{
+    animation-fill-mode: both;
+    animation-duration: 3s;
+    animation-delay: 0.6s;
+    animation-name: ease2;
+}
+
+.t404-3{
+    animation-fill-mode: both;
+    animation-duration: 3s;
+    animation-delay: 0.6s;
+    animation-name: ease3;
+}
+
+.classy{
+    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hg{
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.btn-back {
+    border: 1px solid #444;
+    border-radius: 30px;
+    color: #181818;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 15px 45px;
+}
+
+.btn-back:hover {
+    background-color: #ff631b;
+    border-color: #ff631b;
+    color: #fff;
+    transition: 0.8s;
+}
+
+/* Footer Area */
+
+.footer-area{
+    background-color: #000;
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-bottom: 60px;
+    padding-right: 15px;
+  }
+  
+  .jk{
+    display: inline-block;
+  }
+  
+  .start{
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+  
+  .ofc{
+    align-content: right;
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+  }
+  
+  .text-mut{
+    color: #868686;
+  }
+  
+  .text-mut:hover{
+    color: #fff;
+  }
+  
+  .holy{
+    color: #868686;
+    text-align: right;
+    font-size: small;
+  }
+  
+  .hip{
+    color: #868686;
+  }
+  
+  .plases{
+    color: #868686;
+      font-weight: 400;
+      font-family: "Poppins", sans-serif;
+  }
+  
+  .plases:hover{
+    color: #ff631b;
+    transition: 1s;
+  }
+  
+  /*END FOOTER  */
